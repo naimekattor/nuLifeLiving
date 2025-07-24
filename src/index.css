@@ -1,40 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Peaceful wellness design system for NuLife 2 Living */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Peaceful background palette */
+    --background: 210 40% 98%;
+    --foreground: 215 25% 26%;
 
+    /* Card and content areas */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 26%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 26%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary brand colors inspired by the logo */
+    --primary: 285 75% 65%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 285 65% 85%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary healing colors */
+    --secondary: 150 40% 85%;
+    --secondary-foreground: 215 25% 26%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted peaceful tones */
+    --muted: 210 30% 94%;
+    --muted-foreground: 215 15% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent colors */
+    --accent: 200 70% 85%;
+    --accent-foreground: 215 25% 26%;
+
+    /* Healing nature green */
+    --healing: 145 60% 70%;
+    --healing-foreground: 0 0% 100%;
+
+    /* Calm sky blue */
+    --calm: 200 80% 80%;
+    --calm-foreground: 215 25% 26%;
+
+    /* Lavender serenity */
+    --serenity: 260 60% 85%;
+    --serenity-foreground: 215 25% 26%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 210 20% 90%;
+    --input: 210 20% 95%;
+    --ring: 285 75% 65%;
 
     --radius: 0.5rem;
 
@@ -100,6 +119,64 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-inter;
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations and utilities */
+@layer utilities {
+  .fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+  
+  .fade-in-delay {
+    animation: fadeIn 0.8s ease-out 0.2s forwards;
+    opacity: 0;
+  }
+  
+  .slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+  
+  .bg-gradient-peaceful {
+    background: linear-gradient(135deg, hsl(var(--background)), hsl(var(--serenity)));
+  }
+  
+  .bg-gradient-healing {
+    background: linear-gradient(135deg, hsl(var(--healing)), hsl(var(--calm)));
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--healing)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
