@@ -6,17 +6,20 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import CallToActionSection from "@/components/CallToActionSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import WellnessEssentials from "@/components/WellnessEssentials";
+import NulifeWellness from "@/components/WellnessEssentials";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <HeroSection />
       <AboutSection />
+      <NulifeWellness/>
       <ServicesSection />
       <WhyChooseSection />
       <TestimonialsSection />
-      <CallToActionSection />
-      <ContactSection />
+      {/* <CallToActionSection />
+      <ContactSection /> */}
       <Footer />
     </div>
   );

@@ -1,7 +1,7 @@
 const AboutSection = () => {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-peaceful">
-      <div className="max-w-4xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center flex md:flex-row flex-col justify-between items-center gap-6">
         <div className="slide-up">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-8">
             About <span className="text-gradient">NuLife 2 Living</span>
@@ -28,6 +28,9 @@ const AboutSection = () => {
               as you discover the beautiful, resilient person you're meant to be.
             </p>
           </div>
+        </div>
+        <div>
+          <img src="/keeona.png" alt="keeona hedrick" className="max-h-[600px]" />
         </div>
       </div>
     </section>

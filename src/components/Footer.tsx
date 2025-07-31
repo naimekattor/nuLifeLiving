@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 place-items-center gap-8 mb-8">
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
@@ -17,14 +17,14 @@ const Footer = () => {
                 NuLife 2 Living
               </h3>
             </div>
-            <p className="text-background/80 leading-relaxed">
+            {/* <p className="text-background/80 leading-relaxed">
               A sanctuary for healing, meditation, and emotional support. 
               Helping individuals rediscover themselves through professional care and peaceful retreats.
-            </p>
+            </p> */}
           </div>
 
           {/* Quick Links */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold text-background mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
@@ -62,10 +62,10 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold text-background mb-4">Get in Touch</h4>
             <div className="space-y-2 text-background/80">
               <p>(555) 123-4567</p>
@@ -73,7 +73,6 @@ const Footer = () => {
               <p>123 Healing Way<br />Wellness Valley, CA 90210</p>
             </div>
             
-            {/* Social Media Links */}
             <div className="flex space-x-4 mt-6">
               <a 
                 href="#" 
@@ -104,7 +103,7 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Copyright */}
@@ -112,6 +111,7 @@ const Footer = () => {
           <p className="text-background/60">
             © 2024 NuLife 2 Living Homes, LLC. All rights reserved. | Designed with care for your healing journey.
           </p>
+          <span></span>
         </div>
       </div>
     </footer>

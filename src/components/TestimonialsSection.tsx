@@ -4,8 +4,8 @@ import { Star } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Sarah M.",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      name: "A Malek M.",
+      image: "https://i.ibb.co/TMXYLY46/p-5.jpg",
       text: "NuLife 2 Living gave me hope when I thought there was none left. The caring staff and peaceful environment helped me rediscover my strength and find my way back to myself.",
       rating: 5
     },
