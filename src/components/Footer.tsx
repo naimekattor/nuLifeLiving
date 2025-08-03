@@ -11,7 +11,7 @@ const Footer = () => {
               <img 
                 src="/image/logo1.png" 
                 alt="NuLife 2 Living Logo" 
-                className="w-12 h-12 rounded"
+                className="w-[80px] h-[100px] rounded"
               />
               <h3 className="text-xl font-bold text-background">
                 NuLife 2 Living

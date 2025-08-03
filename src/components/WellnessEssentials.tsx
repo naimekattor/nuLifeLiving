@@ -32,7 +32,7 @@ const NulifeWellness = () => {
         Our mission is to provide a safe, supportive, and structured living environment for individuals in transition who are physically healthy but in need of guidance, stability, and resources to regain independence. We empower residents through personal development, life skills training, employment support, and community integration, fostering self-reliance and long-term success.
       </p>
       <Button variant="peaceful" size="lg" className="text-lg px-8 py-4">
-        Explore Our Retreats
+        Explore Our Facility
       </Button>
     </div>
   </div>
