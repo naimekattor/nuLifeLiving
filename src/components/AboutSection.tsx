@@ -27,7 +27,7 @@ const AboutSection = () => {
           <img src="/keeona.png" alt="keeona hedrick" className="max-h-[600px]" />
           <div className="w-1/2 mx-auto text-lg text-primary leading-relaxed py-4">
           <p>Keeona Hedrick</p>
-          <p className="text-[12px]">Founder and CEO of NuLife 2 Living Homes, LLC</p>
+          <p className="text-[12px] text-black/80">Founder and CEO of NuLife 2 Living Homes, LLC</p>
            </div>
         </div>
       </div>
