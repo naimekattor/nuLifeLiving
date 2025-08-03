@@ -9,9 +9,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/ade91ec2-0570-4ac5-bf0e-086d3a90d011.png" 
+                src="/image/logo1.png" 
                 alt="NuLife 2 Living Logo" 
-                className="w-12 h-12"
+                className="w-12 h-12 rounded"
               />
               <h3 className="text-xl font-bold text-background">
                 NuLife 2 Living

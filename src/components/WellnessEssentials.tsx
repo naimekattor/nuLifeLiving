@@ -23,13 +23,13 @@ const NulifeWellness = () => {
   <div className="w-full md:w-1/2 flex items-center">
     <div>
       <p className="font-sans text-sm md:text-base uppercase tracking-widest bg-white/20 px-4 py-2 inline-block rounded-full mb-4">
-        A Path to Rediscovery
+        A Road to a New Start
       </p>
       <h1 className="font-serif text-[18px] md:text-6xl font-medium leading-tight mb-6">
-        Find Your Sanctuary for Healing and Renewal
+        Safe Haven for Growth: A Transitional Home Toward Independence
       </h1>
       <p className="font-sans text-base md:text-lg leading-relaxed mb-8">
-        NuLife 2 Living is a wellness and recovery center for people who are mentally or physically stressed, emotionally shocked, or recovering from difficult life events. It helps individuals heal and rediscover themselves through professional support and peaceful retreats.
+        Our mission is to provide a safe, supportive, and structured living environment for individuals in transition who are physically healthy but in need of guidance, stability, and resources to regain independence. We empower residents through personal development, life skills training, employment support, and community integration, fostering self-reliance and long-term success.
       </p>
       <Button variant="peaceful" size="lg" className="text-lg px-8 py-4">
         Explore Our Retreats
