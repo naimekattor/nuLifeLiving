@@ -4,7 +4,7 @@ const AboutSection = () => {
       <div className="max-w-7xl mx-auto text-center flex md:flex-row flex-col justify-between items-center gap-6">
         <div className="slide-up">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-8">
-            About <span className="text-gradient">NuLife 2 Living</span>
+             <span className="text-gradient"> About NuLife 2 Living</span>
           </h2>
           
           <div className="max-w-3xl mx-auto space-y-6 text-lg text-muted-foreground leading-relaxed">
