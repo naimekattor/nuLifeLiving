@@ -25,8 +25,6 @@ const AboutSection = () => {
         </div>
         <div>
 
-          <img src="/keeona.png" alt="keeona hedrick" className="max-h-[600px] rounded-md" />
-
           <img src="/keeona.png" alt="keeona hedrick" className="max-h-[600px]" />
           <div className="w-1/2 mx-auto text-lg text-primary leading-relaxed py-4">
           <p>Keeona Hedrick</p>
