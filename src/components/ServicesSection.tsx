@@ -34,11 +34,9 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 slide-up">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Our <span className="text-gradient">Healing Services</span>
+             <span className="text-gradient">You Will Not Walk This Journey Alone</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive support designed to nurture your journey to wellness and self-discovery
-          </p>
+          
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

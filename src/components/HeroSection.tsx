@@ -3,11 +3,11 @@ import heroBackground from "@/assets/hero-background.jpg";
 
 const HeroSection = () => {
   const scrollToContact = () => {
-    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -19,6 +19,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="fade-in">
+          <span className="text-primary-light text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 leading-tight">From Surviving to Thriving</span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             Rediscover Yourself with{" "}
             <span className="text-primary-light">NuLife 2 Living</span>

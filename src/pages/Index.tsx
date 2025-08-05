@@ -8,10 +8,12 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import WellnessEssentials from "@/components/WellnessEssentials";
 import NulifeWellness from "@/components/WellnessEssentials";
+import Navigation from "@/components/Navigation";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <Navigation />
       <HeroSection />
       <AboutSection />
       <NulifeWellness/>

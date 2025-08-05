@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-peaceful">
+    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-peaceful">
       <div className="max-w-7xl mx-auto text-center flex md:flex-row flex-col justify-between items-center gap-6">
         <div className="slide-up">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-8">
@@ -10,17 +10,11 @@ const AboutSection = () => {
           <div className="max-w-3xl mx-auto space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
               At NuLife 2 Living, we understand that life's challenges can leave us feeling 
-              lost, overwhelmed, and disconnected from ourselves. Our mission is to provide 
-              a safe, nurturing sanctuary where individuals can heal, grow, and rediscover 
-              their inner strength.
+              lost, overwhelmed, and disconnected from ourselves. Our Purpose is to provide a safe, structured, and supportive environment for people undergoing major life transitions, such as those aging out of foster care, recovering from domestic violence, transitioning from homelessness, or facing recent unemployment or displacement.
             </p>
             
             <p>
-              Founded on principles of compassion, understanding, and holistic wellness, 
-              we offer a comprehensive approach to healing that addresses the mind, body, 
-              and spirit. Whether you're recovering from trauma, managing stress, or simply 
-              seeking a deeper connection with yourself, we're here to support you every 
-              step of the way.
+              NuLife 2 Living serves as a stable foundation where residents can rebuild their lives, develop essential life skills, and work toward long-term independence and self-sufficiency.
             </p>
             
             <p className="text-primary font-medium">
@@ -30,7 +24,14 @@ const AboutSection = () => {
           </div>
         </div>
         <div>
+
           <img src="/keeona.png" alt="keeona hedrick" className="max-h-[600px] rounded-md" />
+
+          <img src="/keeona.png" alt="keeona hedrick" className="max-h-[600px]" />
+          <div className="w-1/2 mx-auto text-lg text-primary leading-relaxed py-4">
+          <p>Keeona Hedrick</p>
+          <p className="text-[12px] text-black/80">Founder and CEO of NuLife 2 Living Homes, LLC</p>
+           </div>
         </div>
       </div>
     </section>

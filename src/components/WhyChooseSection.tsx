@@ -9,12 +9,12 @@ const WhyChooseSection = () => {
     },
     {
       icon: Leaf,
-      title: "Serene Environments",
-      description: "Carefully designed spaces that promote tranquility and healing, surrounded by nature's calming presence."
+      title: "Career Agent",
+      description: "Empowering individuals, especially those from underserved populations, to become self-sufficient by providing career guidance, skill-building, and job placement support. They strengthen the community by bridging the gap between job seekers and employers, promoting workforce development, and helping people find meaningful, stable employment."
     },
     {
       icon: Heart,
-      title: "Holistic Healing",
+      title: "Total Life Transformation",
       description: "We address the whole person - mind, body, and spirit - for comprehensive wellness and lasting transformation."
     },
     {
@@ -25,11 +25,11 @@ const WhyChooseSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-serenity/30">
+    <section id="why-choose" className="py-20 px-4 sm:px-6 lg:px-8 bg-serenity/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 slide-up">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Why Choose <span className="text-gradient">NuLife 2 Living</span>
+            Why Choose <span className="text-gradient">NuLife 2 Living Homes</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             We're committed to providing the highest quality care in the most supportive environment
