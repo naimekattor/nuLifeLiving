@@ -30,7 +30,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div>
-          <img src="/keeona.png" alt="keeona hedrick" className="max-h-[600px]" />
+          <img src="/keeona.png" alt="keeona hedrick" className="max-h-[600px] rounded-md" />
         </div>
       </div>
     </section>
